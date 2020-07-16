@@ -1,0 +1,293 @@
+{
+  "jsonSchemaSemanticVersion" : "1.0.0",
+  "imports" : [
+    {
+      "corpusPath" : "LogicalDefinition/airbnb.cdm.json",
+      "moniker" : "resolvedFrom"
+    }
+  ],
+  "definitions" : [
+    {
+      "entityName" : "airbnb",
+      "attributeContext" : {
+        "type" : "entity",
+        "name" : "airbnb",
+        "definition" : "resolvedFrom/airbnb",
+        "contents" : [
+          {
+            "type" : "attributeDefinition",
+            "name" : "room_id",
+            "parent" : "airbnb/attributeContext/airbnb",
+            "definition" : "resolvedFrom/airbnb/hasAttributes/room_id",
+            "contents" : [
+              "airbnb/hasAttributes/room_id"
+            ]
+          },
+          {
+            "type" : "attributeDefinition",
+            "name" : "survey_id",
+            "parent" : "airbnb/attributeContext/airbnb",
+            "definition" : "resolvedFrom/airbnb/hasAttributes/survey_id",
+            "contents" : [
+              "airbnb/hasAttributes/survey_id"
+            ]
+          },
+          {
+            "type" : "attributeDefinition",
+            "name" : "host_id",
+            "parent" : "airbnb/attributeContext/airbnb",
+            "definition" : "resolvedFrom/airbnb/hasAttributes/host_id",
+            "contents" : [
+              "airbnb/hasAttributes/host_id"
+            ]
+          },
+          {
+            "type" : "attributeDefinition",
+            "name" : "room_type",
+            "parent" : "airbnb/attributeContext/airbnb",
+            "definition" : "resolvedFrom/airbnb/hasAttributes/room_type",
+            "contents" : [
+              "airbnb/hasAttributes/room_type"
+            ]
+          },
+          {
+            "type" : "attributeDefinition",
+            "name" : "neighborhood",
+            "parent" : "airbnb/attributeContext/airbnb",
+            "definition" : "resolvedFrom/airbnb/hasAttributes/neighborhood",
+            "contents" : [
+              "airbnb/hasAttributes/neighborhood"
+            ]
+          },
+          {
+            "type" : "attributeDefinition",
+            "name" : "reviews",
+            "parent" : "airbnb/attributeContext/airbnb",
+            "definition" : "resolvedFrom/airbnb/hasAttributes/reviews",
+            "contents" : [
+              "airbnb/hasAttributes/reviews"
+            ]
+          },
+          {
+            "type" : "attributeDefinition",
+            "name" : "overall_satisfaction",
+            "parent" : "airbnb/attributeContext/airbnb",
+            "definition" : "resolvedFrom/airbnb/hasAttributes/overall_satisfaction",
+            "contents" : [
+              "airbnb/hasAttributes/overall_satisfaction"
+            ]
+          },
+          {
+            "type" : "attributeDefinition",
+            "name" : "accommodates",
+            "parent" : "airbnb/attributeContext/airbnb",
+            "definition" : "resolvedFrom/airbnb/hasAttributes/accommodates",
+            "contents" : [
+              "airbnb/hasAttributes/accommodates"
+            ]
+          },
+          {
+            "type" : "attributeDefinition",
+            "name" : "bedrooms",
+            "parent" : "airbnb/attributeContext/airbnb",
+            "definition" : "resolvedFrom/airbnb/hasAttributes/bedrooms",
+            "contents" : [
+              "airbnb/hasAttributes/bedrooms"
+            ]
+          },
+          {
+            "type" : "attributeDefinition",
+            "name" : "price",
+            "parent" : "airbnb/attributeContext/airbnb",
+            "definition" : "resolvedFrom/airbnb/hasAttributes/price",
+            "contents" : [
+              "airbnb/hasAttributes/price"
+            ]
+          },
+          {
+            "type" : "attributeDefinition",
+            "name" : "name",
+            "parent" : "airbnb/attributeContext/airbnb",
+            "definition" : "resolvedFrom/airbnb/hasAttributes/name",
+            "contents" : [
+              "airbnb/hasAttributes/name"
+            ]
+          },
+          {
+            "type" : "attributeDefinition",
+            "name" : "last_modified",
+            "parent" : "airbnb/attributeContext/airbnb",
+            "definition" : "resolvedFrom/airbnb/hasAttributes/last_modified",
+            "contents" : [
+              "airbnb/hasAttributes/last_modified"
+            ]
+          },
+          {
+            "type" : "attributeDefinition",
+            "name" : "latitude",
+            "parent" : "airbnb/attributeContext/airbnb",
+            "definition" : "resolvedFrom/airbnb/hasAttributes/latitude",
+            "contents" : [
+              "airbnb/hasAttributes/latitude"
+            ]
+          },
+          {
+            "type" : "attributeDefinition",
+            "name" : "longitude",
+            "parent" : "airbnb/attributeContext/airbnb",
+            "definition" : "resolvedFrom/airbnb/hasAttributes/longitude",
+            "contents" : [
+              "airbnb/hasAttributes/longitude"
+            ]
+          },
+          {
+            "type" : "attributeDefinition",
+            "name" : "ArrivalTime",
+            "parent" : "airbnb/attributeContext/airbnb",
+            "definition" : "resolvedFrom/airbnb/hasAttributes/ArrivalTime",
+            "contents" : [
+              "airbnb/hasAttributes/ArrivalTime"
+            ]
+          }
+        ]
+      },
+      "hasAttributes" : [
+        {
+          "name" : "room_id",
+          "appliedTraits" : [
+            "is.dataFormat.integer"
+          ],
+          "attributeContext" : "airbnb/attributeContext/airbnb/room_id",
+          "dataFormat" : "Int32"
+        },
+        {
+          "name" : "survey_id",
+          "appliedTraits" : [
+            "is.dataFormat.integer"
+          ],
+          "attributeContext" : "airbnb/attributeContext/airbnb/survey_id",
+          "dataFormat" : "Int32"
+        },
+        {
+          "name" : "host_id",
+          "appliedTraits" : [
+            "is.dataFormat.integer"
+          ],
+          "attributeContext" : "airbnb/attributeContext/airbnb/host_id",
+          "dataFormat" : "Int32"
+        },
+        {
+          "name" : "room_type",
+          "appliedTraits" : [
+            "is.dataFormat.character",
+            "is.dataFormat.big",
+            "is.dataFormat.array"
+          ],
+          "attributeContext" : "airbnb/attributeContext/airbnb/room_type",
+          "dataFormat" : "String"
+        },
+        {
+          "name" : "neighborhood",
+          "appliedTraits" : [
+            "is.dataFormat.character",
+            "is.dataFormat.big",
+            "is.dataFormat.array"
+          ],
+          "attributeContext" : "airbnb/attributeContext/airbnb/neighborhood",
+          "dataFormat" : "String"
+        },
+        {
+          "name" : "reviews",
+          "appliedTraits" : [
+            "is.dataFormat.integer"
+          ],
+          "attributeContext" : "airbnb/attributeContext/airbnb/reviews",
+          "dataFormat" : "Int32"
+        },
+        {
+          "name" : "overall_satisfaction",
+          "appliedTraits" : [
+            "is.dataFormat.floatingPoint",
+            "is.dataFormat.big"
+          ],
+          "attributeContext" : "airbnb/attributeContext/airbnb/overall_satisfaction",
+          "dataFormat" : "Double"
+        },
+        {
+          "name" : "accommodates",
+          "appliedTraits" : [
+            "is.dataFormat.integer"
+          ],
+          "attributeContext" : "airbnb/attributeContext/airbnb/accommodates",
+          "dataFormat" : "Int32"
+        },
+        {
+          "name" : "bedrooms",
+          "appliedTraits" : [
+            "is.dataFormat.integer"
+          ],
+          "attributeContext" : "airbnb/attributeContext/airbnb/bedrooms",
+          "dataFormat" : "Int32"
+        },
+        {
+          "name" : "price",
+          "appliedTraits" : [
+            "is.dataFormat.floatingPoint",
+            "is.dataFormat.big"
+          ],
+          "attributeContext" : "airbnb/attributeContext/airbnb/price",
+          "dataFormat" : "Double"
+        },
+        {
+          "name" : "name",
+          "appliedTraits" : [
+            "is.dataFormat.character",
+            "is.dataFormat.big",
+            "is.dataFormat.array"
+          ],
+          "attributeContext" : "airbnb/attributeContext/airbnb/name",
+          "dataFormat" : "String"
+        },
+        {
+          "name" : "last_modified",
+          "appliedTraits" : [
+            "is.dataFormat.character",
+            "is.dataFormat.big",
+            "is.dataFormat.array"
+          ],
+          "attributeContext" : "airbnb/attributeContext/airbnb/last_modified",
+          "dataFormat" : "String"
+        },
+        {
+          "name" : "latitude",
+          "appliedTraits" : [
+            "is.dataFormat.floatingPoint",
+            "is.dataFormat.big"
+          ],
+          "attributeContext" : "airbnb/attributeContext/airbnb/latitude",
+          "dataFormat" : "Double"
+        },
+        {
+          "name" : "longitude",
+          "appliedTraits" : [
+            "is.dataFormat.floatingPoint",
+            "is.dataFormat.big"
+          ],
+          "attributeContext" : "airbnb/attributeContext/airbnb/longitude",
+          "dataFormat" : "Double"
+        },
+        {
+          "name" : "ArrivalTime",
+          "appliedTraits" : [
+            "is.dataFormat.date",
+            "means.measurement.date",
+            "is.dataFormat.time",
+            "means.measurement.time"
+          ],
+          "attributeContext" : "airbnb/attributeContext/airbnb/ArrivalTime",
+          "dataFormat" : "DateTime"
+        }
+      ]
+    }
+  ]
+}
